@@ -27,7 +27,7 @@ DSN: ##CENSORED## "<br>
 ## Required tools:
 The following tools and skills are required throughout this guide:<br>
 
-•	Serial to USB TTY board - I built mine simply by adding a 1.8V LDO Rectifier to a 5v Serial to USB TTY (running an FTDI chip FT232RL) for about 7€ with the help of the following guide: https://ebookrepairs.com/kindle-tips/how-can-i-connect-a-serial-port-to-a-kindle/)<br>
+•	Serial to USB TTY board - I built mine simply by adding a 1.8V LDO Rectifier to a 5v Serial to USB TTY (running an FTDI chip FT232RL) for about 7€ with the help of [this guide](https://ebookrepairs.com/kindle-tips/how-can-i-connect-a-serial-port-to-a-kindle/).<br>
 
 •	Soldering Iron and tin (a basic one with a fine tip will do)<br>
 
