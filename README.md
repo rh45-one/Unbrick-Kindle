@@ -2,7 +2,7 @@
 
 #### Disclaimer: I am not responsible if any further damage occurs to your device while following this guide. Follow it at your own risk.<br>
 
-### Please, do not share this guide without mentioning its author and including a link to my GitHub profile.<br>
+### Please, do not share or copy this guide without including a link to my GitHub profile.<br>
 
 ## What happened?
 I was recently gifted a family member’s old Kindle Paperwhite (6th Generation).
