@@ -6,6 +6,7 @@
 
 ## What happened?
 I was recently gifted a family member’s old Kindle Paperwhite (6th Generation).<br>
+
 After reading about Kindle jailbreaks for a while, I figured it was time to try it out on my own device. Unfortunately, it turned out my Kindle’s firmware version (5.12.2.2) was not supported yet. <br>
 
 During the preparation for the install, an unknown error popped.<br>
