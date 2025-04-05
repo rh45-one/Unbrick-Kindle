@@ -15,15 +15,16 @@ I then decided to perform a factory reset (through the option in the device sett
 Before performing the factory reset, I was supposed to delete all jailbreak-related files from the Kindle (which I didn’t do). I believe this is what bricked the device.<br>
 
 After the reset, the kindle entered a boot loop that lasted approximately 5 minutes, after which I was greeted by an error screen which provided no useful information:<br>
-
-" Repair needed<br>
-—-—-—-—-—-—-—-—-—-—-—-—-—-<br>
-!<br>
-Your Kindle Needs Repairing.<br>
-Please contact Kindle Customer Service at http://www.amazon.com/devicesupport<br>
-Repair Code:2<br>
-Version:371510038<br>
-DSN: ##CENSORED## "<br>
+```
+     Repair needed
+—-—-—-—-—-—-—-—-—-—-—-—-—-
+          !
+Your Kindle Needs Repairing.
+Please contact Kindle Customer Service at http://www.amazon.com/devicesupport
+Repair Code: 2
+Version:371510038
+DSN: ##CENSORED##
+```
 <br>
 ## Required tools:
 The following tools and skills are required throughout this guide:<br>
