@@ -43,7 +43,7 @@ The following tools and skills are required throughout this guide:<br>
 
 1.	Take the Kindle apart, solder 3 wires to the board’s serial pads and connect the other ends to the corresponding pins on the serial monitor as shown [here](https://raw.githubusercontent.com/OhShoot01/Unbrick-Kindle/main/soldered_connections.png).
 #### Note: Instead of using the ground pad, the ground line can be soldered to a heat shield.
- <br>
+
 2.	Connect the serial adapter to a computer and open the serial monitor program. Set the baud rate to 115200 and start the connection. 
 
 3.	You should also connect the Kindle to the computer using the charging cable.
