@@ -2,7 +2,7 @@
 
 #### Disclaimer: I am not responsible if any further damage occurs to your device while following this guide. Follow it at your own risk.<br>
 
-### Please, do not share or copy this guide without including a link to my GitHub profile.<br>
+#### Please, do not share or copy this guide without including a link to my GitHub profile.<br>
 
 ## What happened?
 I was recently gifted a family member’s old Kindle Paperwhite (6th Generation).<br>
@@ -48,26 +48,39 @@ The following tools and skills are required throughout this guide:<br>
 
 3.	You should also connect the Kindle to the computer using the charging cable.
 
-4.	Power on the device and carefully watch the console. At some point it will slow down. Soon after that, you will see a line that reads “Press [ENTER] for recovery menu…”. Quickly press ENTER on your keyboard. [The following menu will then be displayed](https://raw.githubusercontent.com/OhShoot01/Unbrick-Kindle/main/serial_menu.png)<br>
-    Type “e” and hit enter. You should do this before the 10 second countdown reaches 0. Otherwise, the menu will close and you will have to start over.
+4.	Power on the device and carefully watch the console. At some point it will slow down. Soon after that, you will see a line that reads `Press [ENTER] for recovery menu…`. Quickly press ENTER on your keyboard. The following menu will then be displayed
+     ```
+     Menu
+     ====
+     0. Boot default
+     4. Erase MMC
+     I. Initialize Partition Table (fdisk) and format FAT
+     O. Format and overwrite FAT partition
+     E. Export FAT partition
+     U. Update using update*.bin file on FAT partition
+     D. dmseg / kernel printl ring buffer.
+     Q. quit
+     Choose:     9 -
+     ```
+    Type `e` and hit enter. You should do this before the 10 second countdown reaches 0. Otherwise, the menu will close and you will have to start over.
 
-6.	A new message like “FAT mounted” should appear with only two options: “done” and “reboot”. Leave the console as it is. 
-Open your computer’s file explorer and navigate to the internal Kindle storage.
+6.	A new message like `FAT mounted` should appear with only two options: `done` and `reboot`. Leave the console as it is. 
+     Open your computer’s file explorer and navigate to the internal Kindle storage.
 
-7.	Create a text (.txt) document named DO_FACTORY_RESTORE. Now delete the .txt extension.
-The inside of the file should remain empty, you must not write anything in it.
+7.	Create a text (`.txt`) document named `DO_FACTORY_RESTORE`. Now delete the .txt extension.
+     The inside of the file should remain empty, you must not write anything in it.
 
-8.	Go back to the console and select “reboot”. After a few automatic reboots, you will be greeted by the first step of the kindle setup (language selection). Complete this step. 
-The kindle will enter the boot loop once again. When it stops, it will display the same “Needs Repair” screen.
+8.	Go back to the console and select `reboot`. After a few automatic reboots, you will be greeted by the first step of the kindle setup (language selection). Complete this step. 
+     The kindle will enter the boot loop once again. When it stops, it will display the same “Needs Repair” screen.
 
-9.	Repeat step 3 (enter recovery menu and select “e” option).
+9.	Repeat step 3 (enter recovery menu and select `e` option).
 
 10.	Drag and drop the latest firmware available for your specific device. 
-You can find and download this from Amazon’s website. (https://www.amazon.com/gp/help/customer/display.html?nodeId=GKMQC26VQQMM8XSW).
+     You can find and download this from [Amazon’s website](https://www.amazon.com/gp/help/customer/display.html?nodeId=GKMQC26VQQMM8XSW).
 
-11.	Once the “.bin” update file has been copied to the Kindle, go back to the console and select “done”.
-If the recovery menu doesn’t show up again, you will have to repeat step 3 to enter it.
-Select option “u” this time. The update will now begin.
+11.	Once the `.bin` update file has been copied to the Kindle, go back to the console and select `done`.
+     If the recovery menu doesn’t show up again, you will have to repeat step 3 to enter it.
+     Select option `u` this time. The update will now begin.
 
    
 
