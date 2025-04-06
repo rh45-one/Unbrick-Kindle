@@ -37,7 +37,7 @@ The following tools and skills are required throughout this guide:<br>
 •	Computer with any OS - I used Ubuntu for its “screen” serial monitor, but any serial monitor program for Windows or MacOS will work.<br>
 
 •	Micro USB to USB-A cable – It must have data transmission capabilities. Avoid using a thin, cheap, unreliable one.<br>
-<br>
+
 ## Steps: 
 
 1.	Take the Kindle apart, solder 3 wires to the board’s serial pads and connect the other ends to the corresponding pins on the serial monitor as shown [here](https://raw.githubusercontent.com/OhShoot01/Unbrick-Kindle/main/soldered_connections.png).
