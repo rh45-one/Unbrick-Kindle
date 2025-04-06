@@ -25,7 +25,6 @@ Repair Code: 2
 Version:371510038
 DSN: ##CENSORED##
 ```
-<br>
 ## Required tools:
 The following tools and skills are required throughout this guide:<br>
 
